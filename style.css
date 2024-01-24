@@ -1,0 +1,115 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('file:///D:/Downloads/towfiqu-barbhuiya-xkArbdUcUeE-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #333;
+    margin: 0;
+  }
+  
+  .container {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  .expense-form {
+    position: relative;
+    z-index: 1;
+    background-color: rgba(255, 165, 0, 0.9); /* Light orange background */
+    padding: 20px; /* Adjust padding for better visibility */
+  }
+  
+  /* Your other styles... */
+  
+  
+  /* Your other styles... */
+  
+  
+  /* Add a box shadow to the container for a subtle depth effect */
+  .container {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Your existing styles... */
+  
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .header {
+    background-color: #4285f4;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .expense-form {
+    background-color: #02e7f7;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .expense-list {
+    margin-top: 20px;
+  }
+  
+  .expense-item {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style form inputs */
+  input[type="text"],
+  input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+   
+  }
+  
+  /* Style buttons */
+  button {
+    background-color: #4285f4;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  button:hover {
+    background-color: #3367d6;
+  }
+  
+  /* Responsive layout */
+  @media (max-width: 600px) {
+    .container {
+      padding: 10px;
+    }
+  }
+  
